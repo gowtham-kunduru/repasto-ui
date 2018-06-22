@@ -10,9 +10,9 @@
   <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
           <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">              
-              <a class="nav-link">
+              <a class="nav-link" [routerLink]="['/order']">
                   <i class="fa fa-fw fa-dashboard"></i>
-                  <span class="nav-link-text" (click)="reload(false)">
+                  <span class="nav-link-text">
 
                       Create Order
                   </span>
@@ -20,7 +20,7 @@
           </li>
           <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
 
-              <a class="nav-link">
+              <a class="nav-link" >
                   <i class="fa fa-fw fa-frown-o"></i>
                   <span class="nav-link-text">
                       Order By Jampandu</span>
