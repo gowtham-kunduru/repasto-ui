@@ -1,0 +1,48 @@
+@charset "utf-8";
+.row.row-gutter-2 {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.row.row-gutter-2>[class*="col-"] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row.row-gutter-1 {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.row.row-gutter-1>[class*="col-"] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.bg-primary {
+    background-color: #003d79 !important;
+}
+
+a.bg-primary:hover,
+a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+    background-color: #0062cc !important;
+}
+
+.dashboard-cards .card-footer {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+.cursorpointer
+{
+    cursor: pointer;
+}
+.cursorauto{
+    cursor: auto !important;
+}
+.smallfont{    
+    font-size: 0.8em;
+}
+.fontbold{
+    font-weight: bold;
+}
