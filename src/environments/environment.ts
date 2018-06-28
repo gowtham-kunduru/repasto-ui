@@ -5,5 +5,7 @@
 
 export const environment = {
   production: false,
-  base_url: 'http://localhost/8089',
+  base_url: 'http://localhost:53879/api/',
+  createOrder: 'Order/CreateOrder',
+  getFoodItems: 'Order/GetFoodItems'
 };

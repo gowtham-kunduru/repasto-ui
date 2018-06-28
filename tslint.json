@@ -84,7 +84,7 @@
       "check-whitespace"
     ],
     "prefer-const": true,
-    "quotemark": [true, "single","double", "avoid-escape", "avoid-template"],
+    "quotemark": [true, "single","double", "avoid-escape", "avoid-template","jsx-double"],
     "radix": true,
     "semicolon": [
       true,
