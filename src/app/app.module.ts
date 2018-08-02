@@ -9,7 +9,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 const appRoutes: Routes = [
   { path: '', component: AppComponent },
-  { path: 'order', loadChildren: 'app/modules/order/order.module#OrderModule' }
+  { path: 'order', loadChildren: 'app/modules/order/order.module#OrderModule' },
+  { path: 'dailyOrder', loadChildren: 'app/modules/admin/admin.module#AdminModule' }
 ];
 
 @NgModule({

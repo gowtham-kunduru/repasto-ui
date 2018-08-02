@@ -8,11 +8,7 @@
       "root": "src",
       "outDir": "dist",
       "assets": [
-        "../src/assets/vendor/font-awesome/css/font-awesome.css",
-        "../src/assets/vendor/bootstrap/css/bootstrap.css",
-        "../src/assets/css/sb-admin.css",
-        "../src/assets/css/site.css",
-        "styles.css" ,
+        "styles.css",
         "favicon.ico"
       ],
       "index": "index.html",

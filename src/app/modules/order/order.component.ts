@@ -17,8 +17,6 @@ export class OrderComponent implements OnInit {
             console.log(data);
             this.foodItem = data;
         });
-        // this.foodItem = [{ itemId: '5b2106008a2dca2908a3da8c', itemName: 'Item1' },
-        // { itemId: '5b2106298a2dca2908a3da8d', itemName: 'Item2' }];
         this.order = new Order();
     }
     constructor(private orderService: OrderService) {

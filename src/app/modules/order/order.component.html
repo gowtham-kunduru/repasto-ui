@@ -19,7 +19,7 @@
     <label for="selfoodItem">Item Type:</label>
     <select class='form-control' required [(ngModel)]="order.foodItem" id="selfoodItem" name="selfoodItem" #selfoodItem="ngModel"
       [ngClass]="{ 'is-invalid': f.submitted && selfoodItem.invalid }">
-      <option [ngValue]="null" disabled>Choose your profile</option>
+      <option [ngValue]="null" disabled>Choose your food item</option>
       <option class='option' *ngFor='let option of foodItem' [value]="option.itemId">{{option.itemName}}</option>
     </select>
     <div *ngIf="f.submitted && selfoodItem.invalid" class="invalid-feedback">
